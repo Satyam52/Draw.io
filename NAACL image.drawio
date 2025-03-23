@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="Page-1" id="EmcsTvVmywNvnYIFfBjM">
-    <mxGraphModel dx="2206" dy="1135" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="1509" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -241,6 +241,26 @@
         </mxCell>
         <mxCell id="tyUNgMNIcOxuQlKJtQH4-106" value="Paraphrase Text-to-Text pipeline" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="586" y="1910" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tyUNgMNIcOxuQlKJtQH4-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tyUNgMNIcOxuQlKJtQH4-107">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="765" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyUNgMNIcOxuQlKJtQH4-107" value="Aya-35B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="455.71000000000004" y="735" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyUNgMNIcOxuQlKJtQH4-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tyUNgMNIcOxuQlKJtQH4-108" target="tyUNgMNIcOxuQlKJtQH4-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tyUNgMNIcOxuQlKJtQH4-108" value="Prompt:&amp;nbsp;Paraphrase the following sentence in lang, strictly&lt;br&gt;adhering to these guidelines:&lt;br&gt;.&lt;div&gt;.&lt;/div&gt;&lt;div&gt;.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;&lt;br&gt;Transcription&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="22.47" y="750" width="335.84" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tyUNgMNIcOxuQlKJtQH4-109" value="Paraphrased Transcription" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="686" y="750" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tyUNgMNIcOxuQlKJtQH4-112" value="LLM" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="485.71" y="698" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
